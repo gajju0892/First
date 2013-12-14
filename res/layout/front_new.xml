@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/banner" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#99ffff" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/imageButton1"
+            android:background="#0000ff" />
+
+    </RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/relativeLayout2"
+         android:layout_width="match_parent"
+         android:layout_height="35dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/relativeLayout1"
+         android:background="#FF8601" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="15dp"
+             android:textColor="#000000"
+             android:text="@string/motto" />
+
+         <Spinner
+             android:id="@+id/spinner1"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+                         android:textColor="#000000"
+                         android:entries="@array/languages_array"
+             
+              />
+
+     </RelativeLayout>
+
+     <ListView
+         android:id="@+id/listView1"
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/relativeLayout2" >
+     </ListView>
+
+     <Button
+         android:id="@+id/menu"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:text="Menu" />
+
+</RelativeLayout>

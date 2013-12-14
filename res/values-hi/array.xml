@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string-array name="list_1">
+    <item>"समाचार"</item>
+    <item>"प्रेस विज्ञप्ति"</item>
+    <item>"आंदोलन"</item>
+    <item>"संगठन"</item>
+    <item>"हमसे संपर्क करें"</item>
+    </string-array>
+    
+    <string-array name="list_2">
+    <item>"फोटो"</item>
+    <item>"ऑडियो"</item>
+    <item>"वीडियो"</item>
+    <item>"हमारे बारे में"</item>
+    <item>"प्रतिपुष्टि"</item>
+    
+</string-array>
+
+    <string-array name="languages_array">
+    <item>"English"</item>
+    <item>"Hindi"</item>
+    <item>"Gujrati"</item>
+    
+    
+</string-array>
+    
+    
+    <string-array name="list_3">
+    <item>"No Comments..."</item>
+   
+    
+    
+</string-array>
+    
+    
+</resources>
